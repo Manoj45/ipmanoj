@@ -39,26 +39,3 @@ include( 'src/class.visitorTracking.php' );
 //instance the class
 $visitors = new visitorTracking();
 ```
-The constructor method automatically calls the tracking method `$visitors->track();` which inserts the collected data.
-
-You print the array containing the current visit by echoing `$visitors->displayThisVisit();`
-
-You can output a table containing all the paginated data from the database by echoing `$visitors->displayVisitors();`
-
-Alternatively, you can just grab the table data from your database `SELECT * FROM visitors ORDER BY date DESC` and format it according to your specifications.
-
-## License
-This project is licensed under the [MIT LICENSE](https://github.com/theshka/visitorTracking/blob/master/LICENSE)
-
-## Contributors
-
-### Contributors on GitHub
-* [Contributors](https://github.com/theshka/visitorTracking/graphs/contributors)
-
-## Contributing
-If you would like to help make this software better, please follow our guidelines found in [CONTRIBUTING.md](https://github.com/theshka/visitorTracking/blob/master/CONTRIBUTING.md)
-
-## Contact
-* Homepage: http://heshka.com
-* E-mail: tyler@heshka.com
-* KeyBase: https://keybase.io/theshka
